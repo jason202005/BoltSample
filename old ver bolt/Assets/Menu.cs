@@ -22,7 +22,10 @@ public class Menu : GlobalEventListener
 
     public override void BoltStartDone()
     {
-      BoltMatchmaking.CreateSession(sessionID: "test", sceneToLoad: "Game");
+      if (BoltNetwork.IsServer) 
+      {
+        BoltMatchmaking.CreateSession(sessionID: "test", sceneToLoad: "Game");
+      }
 
       // BoltNetwork.EnableLanBroadcast();
     }

@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonBolt", "PhotonBolt.csproj", "{a37fd694-6816-e646-c45c-2ced7b4feec2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonRealtime", "PhotonRealtime.csproj", "{bf569cde-8cbb-3028-444b-0fd18556a7aa}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{c5f818d6-d827-d697-ca8d-80fdb23ed066}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonWebSocket", "PhotonWebSocket.csproj", "{439816a6-ec92-e68d-860c-6630cdd8750a}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonBolt-Editor", "PhotonBolt-Editor.csproj", "{3fe7ccec-d8a5-8e03-6075-c5ad88ad08c6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{a37fd694-6816-e646-c45c-2ced7b4feec2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{a37fd694-6816-e646-c45c-2ced7b4feec2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{bf569cde-8cbb-3028-444b-0fd18556a7aa}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{bf569cde-8cbb-3028-444b-0fd18556a7aa}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{c5f818d6-d827-d697-ca8d-80fdb23ed066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{c5f818d6-d827-d697-ca8d-80fdb23ed066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{439816a6-ec92-e68d-860c-6630cdd8750a}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{439816a6-ec92-e68d-860c-6630cdd8750a}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3fe7ccec-d8a5-8e03-6075-c5ad88ad08c6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3fe7ccec-d8a5-8e03-6075-c5ad88ad08c6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
